@@ -14,12 +14,16 @@ main {
 
 }
 
-.leftContainer {
-    width: 100%;
-    padding-top: 3em;
-    text-align: center;
+input[type='checkbox'] {
+    accent-color: red;
+}
 
-    background-color: whitesmoke;
+button:hover {
+    cursor: pointer;
+}
+
+form {
+    padding-bottom: 4em;
 }
 
 .bannerImage {
@@ -27,6 +31,14 @@ main {
     height: 100%;
 
     object-fit: cover;
+}
+
+.leftContainer {
+    width: 100%;
+    padding-top: 3em;
+    text-align: center;
+
+    background-color: whitesmoke;
 }
 
 .riotLogo {
@@ -55,22 +67,17 @@ main {
 .formInputs {
     border: none;
     border-radius: 4px;
-
     background-color: rgb(231, 231, 231);
     padding: 1.6em;
-
-
     font-weight: 500;
     font-size: 0.6em;
 }
-
 
 .fastLoginContainer {
     text-align: start;
     margin-left: 3em;
     margin-right: 3em;
-
-    padding-bottom: 9em;
+    padding-bottom: 8em;
 }
 
 .fastLoginButtonsContainer {
@@ -78,12 +85,6 @@ main {
     gap: 0.7em;
     padding-top: 1.4em;
     padding-bottom: 0.6em;
-
-
-}
-
-.checkBoxInput {
-
 }
 
 .createAccMainContainer {
@@ -106,15 +107,9 @@ main {
     cursor: pointer;
 }
 
-.logoImageApple {
-    color: white;
-}
-
 .logoImage, .logoImageApple {
     width: 1em;
 }
-
-
 
 .fbButton {
     background-color: #1778F2;
@@ -148,14 +143,3 @@ main {
     width: 2em;
 }
 
-input[type='checkbox'] {
-    accent-color: red;
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-form {
-    padding-bottom: 4em;
-}
